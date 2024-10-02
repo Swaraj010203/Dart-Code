@@ -19,7 +19,7 @@ void main() {
   int index = 0;
 
   for (int i = 0; i < n; i++) {
-    num = fill(n-1, index, matrix, num, n);  // Start from the bottom
+    num = fill(n-1, index, matrix, num, n); 
     index++;
   }
 

@@ -27,9 +27,9 @@ void main() {
 
   for (int i = 0; i < n; i++) {
     if (i % 2 == 0) {
-      num = fill(n-1, index, matrix, num, n);  // Start from the bottom
+      num = fill(n-1, index, matrix, num, n);
     } else {
-      num = fill(i, index, matrix, num, n);  // Start from the top
+      num = fill(i, index, matrix, num, n); 
     }
     index++;
     print("updated num $num");
